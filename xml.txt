@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <MakePaymentByServiceType xmlns="KioskSystems">
+      <terminalId>1</terminalId>
+      <serviceType>BCC</serviceType>
+      <guid>string</guid>
+      <requisite>string</requisite>
+      <amount>decimal</amount>
+      <comission>0</comission>
+      <user_comment>string</user_comment>
+      <user_tin></user_tin>
+      <user_address></user_address>
+    </MakePaymentByServiceType>
+  </soap:Body>
+</soap:Envelope>
